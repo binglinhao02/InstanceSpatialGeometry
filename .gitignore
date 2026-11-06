@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.pickle
+*.log
+work_dirs/
+.efficient_test/
+.pytest_cache/
+.idea/
+build/
+dist/

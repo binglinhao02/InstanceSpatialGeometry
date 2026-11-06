@@ -1,0 +1,12 @@
+# Install a CUDA-compatible PyTorch and MMCV first; see README.md.
+# Direct runtime dependencies tested in the `daformer` environment.
+cityscapesscripts==2.2.0
+kornia==0.5.8
+matplotlib>=3.8,<4
+numpy>=1.26,<2
+opencv-python>=4.8,<5
+Pillow>=9.5
+scipy>=1.10,<2
+timm==0.6.13
+prettytable>=2,<4
+yapf>=0.40,<1

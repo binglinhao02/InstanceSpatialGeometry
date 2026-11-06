@@ -1,0 +1,8 @@
+Spatial Geometry for Domain-Adaptive Semantic Segmentation
+Copyright (c) 2026 Wuhan University, Binglin Hao. All rights reserved.
+
+This notice applies to the original Spatial geometry contributions and
+modifications made for this project. They are offered under Apache-2.0.
+It does not claim ownership of code inherited from DAFormer, HRDA, MIC,
+MMSegmentation, DACS, SegFormer, AdaptSegNet, or Advent. Their notices and
+component-specific license terms are retained in LICENSES.md and resources/.

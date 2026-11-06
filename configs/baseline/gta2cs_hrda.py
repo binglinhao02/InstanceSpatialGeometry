@@ -1,0 +1,14 @@
+# Copyright (c) 2026 Wuhan University, Binglin Hao. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+# Adapted for this release from DAFormer/HRDA/MIC configurations; see LICENSES.md.
+
+_base_ = ['_hrda.py',
+          '../_base_/datasets/baseline_gtaHR_to_cityscapesHR_1024x1024.py']
+
+seed = 1
+data = dict(workers_per_gpu=1, train=dict(
+    rare_class_sampling=dict(min_pixels=3000, class_temp=0.01,
+                             min_crop_ratio=2.0),
+    target=dict(crop_pseudo_margins=[30, 240, 30, 30])))
+name = 'gta2cs_hrda'
+
